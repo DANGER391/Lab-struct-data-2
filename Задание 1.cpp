@@ -39,7 +39,7 @@ int main() {
         }
     }
     auto end = chrono::high_resolution_clock::now();
-    chrono::duration<double> elapsed_seconds = end - start; // Время работы в секундах
+    chrono::duration<double> elapsed_seconds = end - start; 
     double time = elapsed_seconds.count();
 
     for (int i = 0; i < 5; ++i) {
@@ -49,7 +49,7 @@ int main() {
     }
     // Расчет производительности в MFlops
     double complexity = 2.0 * pow(sz, 3);
-    double mfl = complexity / time / 1e6; // p = c / t * 10^-6
+    double mfl = complexity / time / 1e6; 
     cout << fixed << setprecision(2); // Фиксируем вывод с двумя знаками после запятой
     cout << "Размер массива cm: " << (sizeof(complex<float>) * sz * sz)/1024 << " KB" << endl;
     cout << "Сложность алгоритма: " << complexity << endl;
