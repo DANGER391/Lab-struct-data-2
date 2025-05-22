@@ -13,8 +13,8 @@ using namespace std;
 using Complex = std::complex<float>;
 
 const int sz = 1024;
-const int a = -1;
-const int b = 5;
+const int a = -10;//минимальное число
+const int b = 31;//диапазон
 constexpr int BSIZE = 32;
 
 void mat1(const vector<complex<float>>& am, const vector<complex<float>>& bm, vector<complex<float>>& cm) {
