@@ -12,7 +12,7 @@ int main() {
     system("chcp 1251");
     system("cls");
     srand(time(0));
-
+    cout << "Выполнил: Карпенко Денис Иванович\nГруппа: 020303-АИСа-24о\n";
     vector<vector<complex<float>>> acm(sz, vector<complex<float>>(sz));
     vector<vector<complex<float>>> bcm(sz, vector<complex<float>>(sz));
     vector<vector<complex<float>>> cm(sz, vector<complex<float>>(sz));
