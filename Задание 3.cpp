@@ -89,9 +89,9 @@ int main() {
     cout << "Время выполнения: " << tt << " секунд" << endl;
     cout << "Производительность: " << mfl3 << " MFlops" << endl;
 #ifdef _OPENMP
-    std::cout << "Использовано потоков OpenMP: " << omp_get_max_threads() << "\n";
+    cout << "Использовано потоков OpenMP: " << omp_get_max_threads() << "\n";
 #else
-    std::cout << "OpenMP не используется.\n";
+    cout << "OpenMP не используется.\n";
 #endif
     cout << "Вывод случайных 5 элементов:\n";
     for (int i = 0; i < 5; ++i) {
