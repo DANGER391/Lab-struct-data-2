@@ -10,8 +10,8 @@
 using namespace std;
 using Complex = std::complex<float>;
 constexpr int SIZE = 1024;
-const int a = -1;
-const int b = 5;
+const int a = -10;//минимальное число
+const int b = 31;//диапазон
 constexpr int BLOCK_SIZE = 32;
 
 void generateMatrix(std::vector<Complex>& mat) {
