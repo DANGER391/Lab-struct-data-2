@@ -13,7 +13,7 @@ using namespace std;
 int main() {
     system("chcp 1251");
     system("cls");
-    
+    cout << "Выполнил: Карпенко Денис Иванович\nГруппа: 020303-АИСа-24о\n";
     random_device rd;
     mt19937 gen(rd());
     uniform_real_distribution<float> dis(a, a + b);
