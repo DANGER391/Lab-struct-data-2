@@ -17,7 +17,7 @@ int main() {
     random_device rd;
     mt19937 gen(rd());
     uniform_real_distribution<float> dis(a, a + b);
-    vector для хранения матриц
+    //vector для хранения матриц
     vector<complex<float>> A(sz * sz);
     vector<complex<float>> B(sz * sz);
     vector<complex<float>> C(sz * sz, complex<float>(0.0f, 0.0f));
